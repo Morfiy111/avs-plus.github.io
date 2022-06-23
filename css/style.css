@@ -29,6 +29,9 @@ a:hover {
     text-decoration: none;
 }
 
+.header-logo img {
+    width: 200px;
+}
 
 @media(max-width: 991px) {}
 
