@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans-Regular.ttf'),
+        url('../fonts/PTSans-Bold.ttf'),
+        url('../fonts/PTSans-Italic.ttf');
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+a {
+    color: #0074b8;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    border-bottom: 1px solid #0074b8;
+}
+
+a,
+button {
+    transition: all .3s linear;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+
+@media(max-width: 991px) {}
+
+@media(max-width: 767px) {}
+
+@media (max-width: 490px) {}
