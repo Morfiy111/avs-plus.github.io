@@ -142,6 +142,91 @@ button.btn-close {
     margin-left: 10px;
 }
 
+.categories-down-item {
+    margin-left: 20px;
+}
+
+.categories-block {
+    position: relative;
+}
+
+.categories-title::marker {
+    color: #182a69;
+    font-size: 18px;
+}
+
+.footer-page {
+    background-color: #efefef;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: baseline;
+}
+
+.footer-flex-block a {
+    color: #182a69;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-block {
+    display: flex;
+}
+
+.social-block a {
+    margin-right: 20px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
+.btn-block-center .page-btn {
+    color: #182a69;
+    border: 2px solid #182a69;
+}
+
+.btn-block-center .page-btn:hover {
+    background-color: #182a69;
+    color: #fff;
+}
+
+.btn-block-center {
+    text-align: center;
+}
+
+.categories-block {
+    margin-bottom: 40px;
+}
+
+.goods-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.goods-item {
+    width: 16%;
+}
+
+.goods-item img {
+    width: 100%;
+}
+
+.main-text-block {
+    position: absolute;
+    top: 80px;
+    color: #fff;
+    font-size: 20px;
+    max-width: 1320px;
+}
+
 @media(max-width: 991px) {}
 
 @media(max-width: 767px) {}
