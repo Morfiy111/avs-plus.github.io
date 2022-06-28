@@ -198,6 +198,7 @@ button.btn-close {
 
 .btn-block-center {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .categories-block {
@@ -225,6 +226,118 @@ button.btn-close {
     color: #fff;
     font-size: 20px;
     max-width: 1320px;
+}
+
+.advantages-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.advantages-main-icon {
+    text-align: center;
+    font-size: 38px;
+    height: 60px;
+}
+
+.advantages-main-item {
+    width: 24%;
+}
+
+.advantages-main-item i {
+    transition: all .3s linear;
+}
+
+.advantages-main-item:hover i {
+    transform: scale(1.3);
+}
+
+.header-logo a:hover {
+    border-bottom-color: transparent;
+}
+
+.main-page-contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sertificate-block img {
+    width: 100%;
+}
+
+.sertificate-block {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.title-page-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search-block input {
+    padding: 6px 12px;
+    border: 2px solid #182a69;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.page-cart {
+    color: #fff;
+    font-size: 34px;
+    margin-left: 20px;
+}
+
+.page-cart span {
+    font-size: 24px;
+}
+
+#button-up {
+    display: none;
+    right: 30px;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    color: #182a69;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 9;
+}
+
+#button-up::before {
+    font-family: FontAwesome;
+    content: "\f062";
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10.79px;
+    font-size: 22px;
+}
+
+.light-list {
+    padding: 0;
+    list-style: none;
+    margin: 40px 0;
+}
+
+.light-list li {
+    padding: 6px;
+    font-size: 20px;
+}
+
+.light-list li:before {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #182a69;
+    content: "\2606";
+    transition-duration: 0.5s;
+}
+
+.light-list li:hover:before {
+    color: #182a69;
+    content: "\2605";
 }
 
 @media(max-width: 991px) {}
